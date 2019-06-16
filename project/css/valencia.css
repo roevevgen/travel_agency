@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700');
+body{
+    margin: 0 -15px;
+    padding: 0;
+    color: #ffffff;
+}
+.conteiner__qvarz{
+max-width: 1400px;
+margin: auto;
+padding: 0;
+}
+
+.centrl__valencia{
+    text-align: center;
+}
+.central_hotel{
+    height: 900px;
+    width: 1770px;
+    background-image: url(../img/light-blue-gridius-2.png);
+    background-repeat:repeat; 
+    display: grid;
+} 
+.centrl__valencia h2{
+    font-family: "Aleo", serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.centrl__valencia h3{
+    font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.centrl__valencia h4{
+font-family: "Josefin Sans", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 1.5px;
+}
+.gid__senator{
+    padding-top:40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.feedback{
+    width: 200px;
+    height: 200px;
+    transition:transform .25s ease;
+    
+}
+.feedback:hover{
+  
+    transform :scale(1.05) translateY(-6.5px)
+}
+.parque_central{
+    height: 300px;
+    width: 300px;
+}
+.left_dert{
+width: 100%;
+height: 404px;
+background-color: #232323;
+opacity: 0.9;
+}
+.gart{
+    margin: 40px 32px;
+}
+.gart p{
+    color: #e8e8e8;
+    font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.button{
+display: inline-block;
+  border: none;
+  width: 225px;
+  height: 60px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #5474fd;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.button:hover{
+    background-image: linear-gradient(
+        45deg,
+        #496bfe,
+        #496bfe 80%,
+        #5474fd 80%,
+        #5474fd
+      );
+      box-shadow: 1px 1px 0 #fff inset;
+}
+
+
+footer {
+    width: 1770px;
+    height: 268px;
+    background-color: #232323;
+    
+  }
+  .footer__socicons {
+    padding-top: 120px;
+    text-align: center;
+    
+    
+  }
+  .bhromaon__1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer__socicons a{
+    text-align: center;
+  }
+  .footer__socicons i:hover {
+    color: #5474fd;
+  }
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-youtube,
+  .fa-pinterest,
+  .fa-linkedin-in {
+    color: #e8e8e8;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    padding-right: 20px;
+  }
+  
+  .safe__traveling {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+  }
+  footer{
+    margin: 0  auto;
+    
+  }
+  .btn-primary{
+    text-decoration: none;
+      color: rgb(0, 0, 255);
+      font-family: "Noto Serif TC", serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+  }
+  
+  .btn-primary:hover{
+      color:rgba(0, 0, 255, 0.698);
+      text-decoration: none;
+  }
